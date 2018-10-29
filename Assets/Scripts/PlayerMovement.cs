@@ -58,7 +58,7 @@ public class PlayerMovement : MonoBehaviour
 	{
 		if (Input.GetMouseButton(0))
 		{
-			switch (cameraRaycaster.layerHit)
+			switch (cameraRaycaster.currentLayerHit)
 			{
 				case Layer.Walkable:
 					{
