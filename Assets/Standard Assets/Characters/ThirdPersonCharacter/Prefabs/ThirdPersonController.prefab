@@ -2713,4 +2713,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c109e6b18d1de89448bb58afb0209237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveTolerance: 0.2
+  walkMoveStopRadius: 0.2
+  attackMoveStopRadius: 5
